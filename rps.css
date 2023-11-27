@@ -45,6 +45,14 @@ td {
     padding: 8px;
 }
 
+.green {
+    color: green;
+}
+
+.blue {
+    color: blue;
+}
+
 #endDiv {
     width: 30%;
     display: flex;

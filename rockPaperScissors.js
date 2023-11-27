@@ -13,10 +13,11 @@ function playRound(playerSelection) {
     // Get the computer choice
     function getComputerChoice() {
         x = getRandomInt(0, 3);
-        unknown.style.border = "3px solid white";
+        unknown.style.border = "3px solid yellow";
         setTimeout(() => {
             unknown.style.border = "none";
-        }, "400");
+            unknown.src = "./img/unknown.png";
+        }, "600");
         if (x === 0) {
             unknown.src = "./img/rockComp.jpg";
             return "rock";
