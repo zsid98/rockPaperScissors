@@ -3,9 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./rockPaperScissors.js"></script>
+    <link rel="stylesheet" href="rps.css">
     <title>Rock Paper Scissors</title>
 </head>
 <body>
+    <h1>ROCK-PAPER-SCISSORS</h1>
+    <div id="endDiv">
+        <div id="endResult"></div>
+    </div>
+    <div id="computer">
+        <h2>COMPUTER</div>
+        <div id="computer-img">
+            <img src="./img/unknown.png" id="unknown">
+        </div>
+    </div>
+    <div id="player">
+        <h2>PICK ONE</div>
+        <div id="player-img">
+            <img src="./img/rock.jpg" id="rock">
+            <img src="./img/paper.jpg" id="paper">
+            <img src="./img/scissors.jpg" id="scissors">
+        </div>
+    </div>
+    <table id="result">
+        <tr>
+            <td>You</td>
+            <td>Computer</td>
+        </tr>
+        <tr>
+            <td id="player-wins">0</td>
+            <td id="computer-wins">0</td>
+        </tr>
+    </table>
+    <script src="./rockPaperScissors.js"></script>
 </body>
 </html>
+<!--<a href="https://www.flaticon.com/free-icons/rock-paper-scissors" title="rock paper scissors icons">Rock paper scissors icons created by grapicocean - Flaticon</a>-->

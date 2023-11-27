@@ -1,0 +1,81 @@
+* {
+    background-color: black;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#player-img, #computer-img {
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#player {
+    text-align: center;
+    color: green;
+}
+
+#computer {
+    text-align: center;
+    color: blue;
+}
+
+img {
+    width: 90px;
+    border-radius: 100%;
+}
+
+#unknown {
+    margin: auto auto 20px auto;
+}
+
+table {
+    margin: auto;
+    color:white;
+    font-size: 30px;
+}
+
+td {
+    text-align: center;
+    padding: 8px;
+}
+
+#endDiv {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+#endResult {
+    color: white;
+}
+
+#newGame {
+    width: 150px;
+    height: 50px;
+    margin: 15px auto;
+    background-color: blue;
+    color: yellow;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#newGame:hover {
+    color: blue;
+    background-color: yellow;
+}
+
+button:hover {
+    cursor:pointer;
+}
+
+#player-img img:hover {
+    cursor:pointer;
+    border: 3px solid white;
+}
